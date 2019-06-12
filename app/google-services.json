@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "106121638974",
+    "firebase_url": "https://gpmessage-7ae15.firebaseio.com",
+    "project_id": "gpmessage-7ae15",
+    "storage_bucket": "gpmessage-7ae15.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:106121638974:android:00e02b463dae65db",
+        "android_client_info": {
+          "package_name": "com.example.wansa.gpmessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "106121638974-qp8ubhhg6pvi32pacc0okks4k19sdlb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wansa.gpmessage",
+            "certificate_hash": "f931ed7c8a15da9cae7eacde37cffe54a937638a"
+          }
+        },
+        {
+          "client_id": "106121638974-ttkileitfa6v7kk08g46ri02u3tlnsev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDFU-PTXwK-tWw9kyvsMfHKSbdNaT4d9Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "106121638974-ttkileitfa6v7kk08g46ri02u3tlnsev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

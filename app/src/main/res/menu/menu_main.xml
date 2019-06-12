@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<!--
+    <item
+        android:title="Tüm Kullanıcılar"
+        app:showAsAction="never">
+
+    </item>
+    -->
+    <item
+        android:id="@+id/mainLogout"
+        android:title="@string/logout"
+        app:showAsAction="never">
+
+    </item>
+    <!--
+        <item
+            android:id="@+id/exit"
+            android:title="Çıkış Yap"
+            app:showAsAction="always">
+
+        </item>
+        -->
+
+    <item
+        android:id="@+id/arkasayfa"
+        android:title="önceki sayfa"
+        app:showAsAction="always">
+
+    </item>
+</menu>

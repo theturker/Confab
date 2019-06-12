@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginscr"
+    tools:context=".LoginActivity">
+
+    <include layout="@layout/actionbar_app"
+        android:id="@+id/actionbarLogin"/>
+
+    <LinearLayout
+        android:id="@+id/linearlayoutlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtinfo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/login"
+            android:textColor="@color/colorwelcomebtn"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/txtemailLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="18dp"
+            android:drawableLeft="@drawable/action_bar_message"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtpasswordLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="18dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="18dp"
+            android:drawableLeft="@drawable/action_bar_lock"
+            android:hint="@string/passwordLogin"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearlayoutlogin"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="35dp"
+        android:layout_centerVertical="true">
+
+        <Button
+            android:id="@+id/userLogin"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:text="@string/userLogin"
+
+            android:background="@color/colorwelcomebtn"
+            android:textColor="@color/colorbaslik" />
+
+
+        <Button
+            android:id="@+id/btnRegisterLogin"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="@string/create_new_account"
+
+            android:background="@color/colorwelcomebtn"
+            android:textColor="@color/colorbaslik"
+            />
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:background="@drawable/loginscr">
+
+   <include layout="@layout/actionbar_app"
+       android:id="@+id/actionbarRegister" />
+
+    <LinearLayout
+        android:id="@+id/linearlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp">
+
+   <TextView
+       android:id="@+id/txtinfo1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="@string/create_new_account"
+       android:textColor="@color/colorPrimary"
+       android:layout_marginTop="20dp"
+       android:textStyle="bold"
+       android:textSize="20sp"/>
+
+
+
+    <EditText
+        android:id="@+id/txtUsernameRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:drawableLeft="@drawable/action_bar_login"
+        android:layout_marginTop="35dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"/>
+
+    <EditText
+        android:id="@+id/txtEmailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:drawableLeft="@drawable/action_bar_message"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"/>
+
+    <EditText
+        android:id="@+id/txtPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:drawableLeft="@drawable/action_bar_lock"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"/>
+
+
+    </LinearLayout>
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="35dp"
+    android:layout_marginRight="30dp"
+    android:layout_marginLeft="30dp"
+    android:layout_below="@+id/linearlogin">
+    <Button
+        android:id="@+id/loginbuton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+
+
+
+        android:layout_alignParentLeft="true"
+
+        android:background="@color/colorPrimary"
+        android:text="Hesabınız Var Mı?"
+        android:textColor="@color/colorbaslik" />
+
+    <Button
+        android:id="@+id/btnWelcomeRegister"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+android:layout_alignParentRight="true"
+
+        android:background="@color/colorPrimary"
+        android:text="@string/create_account"
+        android:textColor="@color/colorbaslik" />
+
+
+</RelativeLayout>
+
+
+
+
+</RelativeLayout>
